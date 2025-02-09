@@ -1,0 +1,23 @@
+{
+  "name": "@web-printer/examples",
+  "version": "0.4.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "Ou RongXing<orongxing@gmail.com>",
+  "homepage": "https://github.com/ourongxing/web-printer/tree/main/packages/juejin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busiyiworld/web-printer.git",
+    "directory": "packages/juejin"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@web-printer/core": "link:../core",
+    "@web-printer/vitepress": "link:../vitepress",
+    "@web-printer/vuejs": "link:../vuejs"
+  }
+}

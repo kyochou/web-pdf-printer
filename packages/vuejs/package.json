@@ -1,0 +1,25 @@
+{
+  "name": "@web-printer/vuejs",
+  "version": "0.4.0",
+  "license": "MIT",
+  "author": "Ou RongXing<orongxing@gmail.com>",
+  "homepage": "https://github.com/ourongxing/web-printer/tree/main/packages/vuejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busiyiworld/web-printer.git",
+    "directory": "packages/vuejs"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "pnpm build --watch"
+  },
+  "dependencies": {
+    "@web-printer/core": "workspace:*"
+  }
+}

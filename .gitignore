@@ -3,5 +3,8 @@ node_modules
 *.pdf
 *.tmp
 dist
+tmp
 output
 .eslintcache
+.history
+
